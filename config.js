@@ -1,6 +1,6 @@
 let fs = require('fs')
 
-global.owner = ['6281351047727'] // Put your number here
+global.owner = ['628895377665'] // Put your number here
 global.mods = [] // Want some help?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json'))
 global.APIs = { // API Prefix
@@ -28,22 +28,22 @@ global.APIKeys = { // APIKey Here
 
 // Sticker WM
 global.stiker_wait = 'Stiker sedang dibuat'
-global.packname = 'ShiraoriBOT Multi device'
-global.author = 'Ilmanhdyt'
-global.namabot = 'ShiraoriBOT'
+global.packname = 'By:'
+global.author = '628895377665'
+global.namabot = 'WHATSAPP BOT'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
-global.wm = '© ShiraoriBOT-Md • Ilmanhdyt'
+global.wm = '© Whatsapp BOT-Md • PinoMD'
 global.media = 'https://telegra.ph/file/5d45a3d1e12726d98c5e4.jpg'
 
 global.wait = '_*tunggu sedang di proses...*_'
 global.eror = '_*Server Error*_'
 
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.urlnya = "https://www.instagram.com/ilmanhdyt_"
+global.urlnya = "https://www.instagram.com/pinomodz_"
 
 //============= callButtons =============//
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
-global.phn = '+62 813-5104-7727'
+global.phn = '+62 889-5377-665'
 
 //============= Games ================//
 global.benar = '_*Benar✅*_'
