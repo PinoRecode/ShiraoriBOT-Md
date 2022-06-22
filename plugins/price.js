@@ -20,8 +20,8 @@ let premium = `
  └✅ Unlimited Limit 
  └✅ Premium User 
  └❎ Add Bot to Group 
-   └  ▹  *Rp. 5.000*
-     └ Expired 3 hari
+   └  ▹  *Rp. 15.000*
+     └ Expired 30 hari
  └ Order | hub : owner
 `
      const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -33,8 +33,8 @@ let premium = `
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: 'DONASI',
-               url: 'https://saweria.co/ilmanhdyt'
+               displayText: 'Instagram',
+               url: 'https://instagram.com/pinomodz'
              }
 
            },
