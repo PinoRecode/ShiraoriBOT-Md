@@ -19,6 +19,8 @@ Nurutomo:
 https://github.com/Nurutomo
 Istikmal: 
 https://github.com/BochilGaming
+PinoMD: 
+https://pinorecode.github.io
 Ariffb: 
 https://github.com/Ariffb25
 Ilman: 
@@ -35,8 +37,8 @@ https://github.com/amiruldev20
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '💠 Source Code',
-               url: 'https://github.com/ilmanhdyt/ShiraoriBOT-Md'
+               displayText: '💠 Support BOT',
+               url: 'https://instagram.com/pinomodz'
              }
 
            },
