@@ -178,7 +178,7 @@ module.exports = {
                     if (!('sBye' in chat)) chat.sBye = ''
                     if (!('sPromote' in chat)) chat.sPromote = ''
                     if (!('sDemote' in chat)) chat.sDemote = ''
-                    if (!('delete' in chat)) chat.delete = true
+                    if (!('delete' in chat)) chat.delete = false
                     if (!('antiLink' in chat)) chat.antiLink = false
                     if (!('simi' in chat)) chat.simi = false
                     if (!('viewonce' in chat)) chat.viewonce = false
@@ -191,7 +191,7 @@ module.exports = {
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
-                    delete: true,
+                    delete: false,
                     antiLink: false,
                     simi: false,
                     viewonce: false,
@@ -202,9 +202,9 @@ module.exports = {
         if (typeof settings !== 'object') global.db.data.settings = {}
         if (settings) {
           if (!'anon' in settings) settings.anon = true
-          if (!'anticall' in settings) settings.anticall = true
-          if (!'antispam' in settings) settings.antispam = true
-          if (!'antitroli' in settings) settings.antitroli = true
+          if (!'anticall' in settings) settings.anticall = false
+          if (!'antispam' in settings) settings.antispam = false
+          if (!'antitroli' in settings) settings.antitroli = false
           if (!'backup' in settings) settings.backup = false
           if (!isNumber(settings.backupDB)) settings.backupDB = 0
           if (!'groupOnly' in settings) settings.groupOnly = false
@@ -213,9 +213,9 @@ module.exports = {
           if (!isNumber(settings.status)) settings.status = 0
         } else global.db.data.settings = {
           anon: true,
-          anticall: true,
-          antispam: true,
-          antitroli: true,
+          anticall: false,
+          antispam: false,
+          antitroli: false,
           backup: false,
           backupDB: 0,
           groupOnly: false,
